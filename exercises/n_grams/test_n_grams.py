@@ -3,6 +3,8 @@ import pytest
 from n_grams import Text
 import numpy
 
+
+
 test_files = ["blank.txt", "repeat.txt", "short.txt"]
 
 def test_read_text():
